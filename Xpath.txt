@@ -1,0 +1,65 @@
+tagname, attribute and then text
+
+//tagname[@att='']
+//tagname[text()='']
+
+
+//tagname[contains(@att,'')]
+//tagname[contains(text(),'')]
+
+
+//button[@type='submit']
+
+//div[text()='Patients']
+
+
+//div[@id='js-https-mismatch']/following::div
+
+(//div[@role='alert'])[2]
+
+and - or 
+
+following - preceding 
+//tagname[@att='']/following::tagname
+//tagname[@att='']/following::tagname[@att='']
+
+//div[@id='js-https-mismatch']/following::div
+
+parent - child 
+
+child - //table[@id='example']/tbody/tr[1]/td[2]
+
+
+ancestor - descendant
+
+
+descendant:
+//table[@id='example']//td
+
+//table[@id='example']//td[@class='main']
+
+following - sibiling - preceding sibiling 
+
+
+
+
+
+
+
+Row count 
+//table[@id='example']/tbody/tr
+
+
+
+
+CSS 
+ #id
+.classname
+tagname[att='']
+[att='']
+
+	
+
+
+
+
